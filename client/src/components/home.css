@@ -1,0 +1,24 @@
+.contenedor {
+  background-image: url("https://i.ibb.co/ZW5Kk8v/Fondo-de-pantalla.jpg");
+  /* background-color: rgb(226, 73, 17); */
+  /* background-size: cover; */
+  min-height: 100vh;
+  display: flexbox;
+  align-items: center;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.cargando {
+  padding: 100%;
+  margin-left: 230px;
+  margin-right: 150px;
+  margin-top: -500px;
+  font-size: 25px;
+}

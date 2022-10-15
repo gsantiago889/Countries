@@ -1,0 +1,47 @@
+.contenedor {
+  background-image: url("https://i.ibb.co/qxNcdvW/Captura-Landing.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.divTitulo {
+  height: 50%;
+  margin-top: 20%;
+}
+.titulo {
+  font-size: 300%;
+  /* background-color: rgba(36, 36, 22, 0.692); */
+}
+
+.divBoton {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: center;
+  height: 30%;
+  margin-bottom: 35%;
+  margin-top: 10%;
+}
+.boton {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: transparent;
+  border-radius: 20px;
+  border-color: black;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #131617;
+  color: white;
+}
